@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ukol 3: Formulare</title>
+</head>
+<body>
+  
+  <h2>Registrace na kurz</h2>
+  <p>Povinne: Jmeno, Prijmeni, Heslo, Email</p>
+
+  <form action="ukol_3_forms_thankyou_page.html" method="get">
+
+    <div>
+      <!-- for="" se vaze na id=""-->
+      <label for="jmeno">Jmeno:</label>
+      <!-- name="" jde do html adresy (spolu s value="") -->
+      <input type="text" name="jmeno" id="jmeno" placeholder="jmeno" required>
+      <label for="prijmeni">Prijmeni:</label>
+      <input type="text" name="prijmeni" id="prijmeni" placeholder="prijmeni" required>
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="email" required>
+      <label for="heslo">Heslo:</label>
+      <input type="password" name="heslo" id="heslo" placeholder="heslo" required>
+    </div>
+
+    <div>
+      <p>Je vam vice nez 18 let?</p>
+      <!-- for="" se vaze na id=""-->
+      <label for="vekano">Ano:</label>
+      <!-- uvedenim stejneho name="" svazeme radiobuttony -->
+      <input type="radio" name="plnoletost" id="vekano" value="ano">
+      <label for="vekne">Ne:</label>
+      <input type="radio" name="plnoletost" id="vekne" value="ne">
+    </div>
+
+    <div>
+      <p>Mate kreditni kartu nebo ucet PayPal?</p>
+      <select name="platba" id="">
+        <option value="kk">Kreditni kartu</option>
+        <option value="pp">PayPal</option>
+      </select>
+    </div>
+
+    <br>
+
+    <input type="submit" value="Registrovat">
+
+  </form>
+
+</body>
+</html>
