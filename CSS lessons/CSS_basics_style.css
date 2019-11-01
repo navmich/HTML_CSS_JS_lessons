@@ -1,0 +1,31 @@
+/* toto je komentar */
+
+/* 
+selected tag{
+  property: value;
+  property: value;
+  ...
+} 
+*/
+
+/* 
+barvy:
+na google: color picker 
+*/
+
+h2{
+  color: blue;
+}
+
+li{
+  color: rgb(222, 135, 29);
+}
+
+p{
+  color: #de1dce; /* pouziva se nejvice */
+}
+
+
+h4{
+  color: rgba(222, 135, 29, 0.5); /* takhle se zadava pruhlednost*/
+}
