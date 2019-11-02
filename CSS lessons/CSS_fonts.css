@@ -1,0 +1,22 @@
+h1{
+    /* druh fontu */
+    font-family: "Arial";
+    /* centrovani na strance */
+    text-align: center;
+}
+
+p{
+   font-family: 'AlexBrushRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+body{
+    font-size: 20px;
+}
+
+/* realtivni velikost je 2x 20px*/
+#two{
+    font-size: 2.0em;
+    font-family: 'Barrio', cursive;
+}
