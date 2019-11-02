@@ -1,0 +1,28 @@
+/* teckou se znaci tridy class="" */
+.firstDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color: green;
+}
+
+/* hash oznacuje ID elementu */
+#singledout{
+    color: red;
+    text-decoration: line-through;
+}
+
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+/* sentence: s mezerou = vsechny odkazy, ktere jsou v polozce seznamu */
+li a{
+    color: red;
+}
+
+li a[href="www.google.com"]{
+    color: blue;
+    border: 5px solid orange;
+}
