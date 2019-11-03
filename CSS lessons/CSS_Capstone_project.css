@@ -1,0 +1,41 @@
+body{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    background-color: #082c66;
+    color: #FDFFFC;
+    border: 50px solid #37e6d1;
+    border-top: 0px;
+    /* padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;     */
+    margin: 0px;
+}
+
+p{
+    width: 70%;    
+    margin: auto;
+    margin-top: 40px;
+}
+
+::placeholder{
+    font-family: 'Teko', sans-serif;
+}
+
+form{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#button{
+    height: 80px;
+    width: 150px;
+    background-color: #e6c925;
+    border-radius: 20px;  
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;  
+}
+
+input{
+    width: 30%;
+}
